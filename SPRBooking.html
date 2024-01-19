@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowy Pines Retreat | Lockport NY</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #522c00;
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .card {
+            width: 45%;
+            margin: 10px;
+            padding: 15px;
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.025);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        #fullpage-image {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #555;
+            padding: 5px;
+            text-align: left;
+        }
+
+        a {
+            color: #ffd993;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .booking-form {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #b15e00;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/SPRHeader.png">
+    </header>
+    <main>
+        <b>Reserve Booking Today!</b>
+        <br>
+        <div class="booking-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="contact">Phone Number or Email:</label>
+                <input type="text" id="contact" name="contact" required><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <footer>
+        &copy; 2024 Snowy Pines Retreat. All rights reserved.
+    </footer>
+</body>
+
+</html>
