@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowy Pines Retreat | Lockport NY</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #522c00;
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .card {
+            width: 45%;
+            margin: 10px;
+            padding: 15px;
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.025);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        #fullpage-image {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #555;
+            padding: 5px;
+            text-align: left;
+        }
+
+        a {
+            color: #ffd993;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #b15e00;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/SPRHeader.png">
+    </header>
+
+    <main>
+        <div class="card">
+            <img src="./images/SPR-BlenderRender1.png" alt="Snowy Pines Retreat Campground Image">
+            <p><b>Camping</b></p>
+            <br>
+            Snowy Pines Retreat Campground features
+            soft-lighting for the night time,
+            garbage cans, comfortable benches, cozy tents,
+            and of course a great campfire for the cold nights.
+        </div>
+
+        <div class="card">
+            <img src="./images/SkiiRender1.png" alt="Skiing area">
+            <p><b>Skiing</b></p>
+            <br>
+                Snowy Pines Retreat features an amazing skiing area, 
+                and supports all ages; From our kids area, 
+                to the adults area. We're sure this will deliver a blast for you, 
+                your friends, and family.
+        </div>
+
+        <div class="card">
+            <img id="fullpage-image" src="./images/SPR-ParkingRender1.png" alt="Parking Image">
+            <p><b>Parking</b></p>
+            <br>
+            We offer free parking for visitors
+        </div>
+
+        <div class="card">
+            <img id="fullpage-image" src="./images/SPR-Maps.png" alt="Full Page Image">
+            <p><b>Located in <span style="color: rgb(44, 65, 255);">Lockport</span>, <span style="color: rgb(243, 243, 106);">NY</span></b></p>
+
+            <br>
+            Snowy Pines Retreat is located North-West of Lockport NY. 
+            Find directions via our external website (coming soon)
+        </div>
+
+        <div class="card">
+            <table>
+                <tr>
+                    <th>Region</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Campsite</td>
+                    <td>3 Individual Tents<br>3 Wooden Benches<br>all-day Lighting<br>Wood-Campfire<br>Trash Bins</td>
+                </tr>
+                <tr>
+                    <td>Skiing</td>
+                    <td>4 Levels<br>all-day Lighting<br>Emergency Tent<br>Supply Station</td>
+                </tr>
+                <tr>
+                    <td>Parking</td>
+                    <td>24/7 Parking for visitors<br>Emergency Supplies</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="card">
+            <p><b>Booking coming Q2 2024</b></p>
+            <a href="https://www.nps.gov/subjects/camping/how-to-camp.htm" target="_blank">Reserve your spot</a>
+        </div>
+        <div class="card">
+            <p>Visit <a href="https://www.nps.gov/subjects/camping/how-to-camp.htm" target="_blank">nps.gov</a> for more information about camping.</p>
+        </div>
+        
+    </main>
+
+    <footer>
+        &copy; 2024 Snowy Pines Retreat. All rights reserved.
+    </footer>
+</body>
+
+</html>
